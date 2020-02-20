@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-#  spec.source_files = "SDK/FirstDataSDK.h"
+  spec.source_files = "FirstDataSDK.framework/Headers/FirstDataSDK.h"
   spec.public_header_files = "FirstDataSDK.framework/Headers/FirstDataSDK.h"
   # spec.prefix_header_file = 'GoPagos/GoPagos-Prefix.pch'
   # spec.prefix_header_contents = '#import "SessionTimer.h"'
