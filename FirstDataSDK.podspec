@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #
 
 #  spec.source_files = "SDK/FirstDataSDK.h"
-  spec.public_header_files = "Headers/FirstDataSDK.h"
+  spec.public_header_files = "FirstDataSDK.framework/Headers/FirstDataSDK.h"
   # spec.prefix_header_file = 'GoPagos/GoPagos-Prefix.pch'
   # spec.prefix_header_contents = '#import "SessionTimer.h"'
   spec.swift_version = "5.0" 
