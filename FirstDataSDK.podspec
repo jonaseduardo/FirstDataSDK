@@ -64,6 +64,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
   spec.platform     = :ios, "9.0"
+  spec.ios.deployment_target = '9.0'
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -122,7 +123,7 @@ Pod::Spec.new do |spec|
   # spec.libraries = "iconv", "xml2"
   
   # spec.vendored_libraries = "libqpos-ios-sdk.a"
-  # spec.ios.vendored_frameworks = 'FirstDataSDK.framework'
+  spec.ios.vendored_frameworks = 'FirstDataSDK.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
