@@ -122,7 +122,7 @@ Pod::Spec.new do |spec|
   # spec.libraries = "iconv", "xml2"
   
   # spec.vendored_libraries = "libqpos-ios-sdk.a"
-  spec.ios.vendored_frameworks = 'FirstDataSDK.framework'
+  # spec.ios.vendored_frameworks = 'FirstDataSDK.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
