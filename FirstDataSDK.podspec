@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => 'https://github.com/jonaseduardo/FirstDataSDK/raw/master/FirstDataSDK.zip' }
+  spec.source       = { :git => 'https://github.com/jonaseduardo/FirstDataSDK.git' }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -123,7 +123,7 @@ Pod::Spec.new do |spec|
   # spec.libraries = "iconv", "xml2"
   
   # spec.vendored_libraries = "libqpos-ios-sdk.a"
-  spec.ios.vendored_frameworks = 'FirstDataSDK/FirstDataSDK.framework'
+  spec.ios.vendored_frameworks = 'FirstDataSDK.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
