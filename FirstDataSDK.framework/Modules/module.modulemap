@@ -1,0 +1,6 @@
+framework module FirstDataSDK {
+  umbrella header "FirstDataSDK.h"
+
+  export *
+  module * { export * }
+}
