@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => 'https://github.com/jonaseduardo/FirstDataSDK.git' }
+  spec.source       = { :http => 'https://github.com/jonaseduardo/FirstDataSDK/raw/master/FirstDataSDK.zip' }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource_bundle = { 'FirstDataSDKResources' => 'GoPagos/**/*.{png,storyboard,xib,pch}' }
-  spec.resources  = "GoPagos/**/*.{png,storyboard,xib,pch}"
+  # spec.resources  = "GoPagos/**/*.{png,storyboard,xib,pch}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
