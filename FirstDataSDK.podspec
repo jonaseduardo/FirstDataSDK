@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => 'https://github.com/jonaseduardo/FirstDataSDK/raw/master/FirstDataSDK.framework.zip' }
+  spec.source       = { :http => 'https://github.com/jonaseduardo/FirstDataSDK/raw/master/FirstDataSDK.zip' }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
