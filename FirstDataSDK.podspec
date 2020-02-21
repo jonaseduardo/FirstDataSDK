@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource_bundle = { 'FirstDataSDKResources' => 'GoPagos/**/*.{png,storyboard,xib,pch}' }
-  spec.resources  = "FirstDataSDK.framework/Files/FirstDataSDKResources.bundle"
+  spec.resources  = "GoPagos/**/*.{png,storyboard,xib,pch}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -123,7 +123,7 @@ Pod::Spec.new do |spec|
   # spec.libraries = "iconv", "xml2"
   
   # spec.vendored_libraries = "libqpos-ios-sdk.a"
-  # spec.ios.vendored_frameworks = 'FirstDataSDK.framework'
+  spec.ios.vendored_frameworks = 'FirstDataSDK/FirstDataSDK.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
