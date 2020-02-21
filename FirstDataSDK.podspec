@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource_bundle = { 'FirstDataSDKResources' => 'GoPagos/**/*.{png,storyboard,xib,pch}' }
-  # spec.resources  = "GoPagos/**/*.{png,storyboard,xib,pch}"
+  spec.resources  = "FirstDataSDK.framework/Files/FirstDataSDKResources.bundle"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
